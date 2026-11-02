@@ -13,7 +13,7 @@ import sys
 import urllib.request
 from datetime import datetime, timezone
 
-DATA_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data.json")
+DATA_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "data.json")
 
 # Primary and Fallback Exchange Rate APIs (Free, Keyless, Daily updated)
 API_PRIMARY = "https://open.er-api.com/v6/latest/USD"

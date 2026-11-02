@@ -11,7 +11,7 @@ import sys
 import time
 import urllib.request
 
-DATA_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data.json")
+DATA_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "data.json")
 
 # Country ID to App Store country code mapping
 COUNTRY_MAP = {
