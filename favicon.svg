@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="brandBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6F2E"/>
+      <stop offset="100%" stop-color="#FC5200"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="url(#brandBg)"/>
+  
+  <!-- Modern Athletic Chrono Stopwatch -->
+  <g fill="#FFFFFF">
+    <!-- Top Crown & Loop -->
+    <rect x="232" y="74" width="48" height="34" rx="10"/>
+    <rect x="216" y="52" width="80" height="26" rx="10"/>
+    <!-- Top-Right Lap Pusher (angled) -->
+    <rect x="348" y="106" width="30" height="24" rx="8" transform="rotate(38 363 118)"/>
+    
+    <!-- Outer Dial Rim -->
+    <path d="M256 140 C171.5 140 103 208.5 103 293 C103 377.5 171.5 446 256 446 C340.5 446 409 377.5 409 293 C409 208.5 340.5 140 256 140 Z M256 414 C189.2 414 135 359.8 135 293 C135 226.2 189.2 172 256 172 C322.8 172 377 226.2 377 293 C377 359.8 322.8 414 256 414 Z"/>
+    
+    <!-- Dynamic Speed Pointer Hand (Pointing to ~2 o'clock, fast pace) -->
+    <path d="M256 293 L324 200" stroke="#FFFFFF" stroke-width="26" stroke-linecap="round"/>
+    <!-- Center Hub Core -->
+    <circle cx="256" cy="293" r="26"/>
+    <!-- Center Pin Cutout -->
+    <circle cx="256" cy="293" r="10" fill="#FC5200"/>
+    
+    <!-- 4 Cardinal Pace Markers -->
+    <rect x="250" y="180" width="12" height="22" rx="6"/>
+    <rect x="345" y="287" width="22" height="12" rx="6"/>
+    <rect x="250" y="384" width="12" height="22" rx="6"/>
+    <rect x="145" y="287" width="22" height="12" rx="6"/>
+  </g>
+</svg>

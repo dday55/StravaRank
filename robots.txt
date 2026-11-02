@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://strava-rank.orb.local/sitemap.xml

@@ -1,0 +1,52 @@
+name: Auto-update Global Pricing & Exchange Rates
+
+on:
+  schedule:
+    # 每天北京时间早 08:00 (UTC 00:00) 自动执行汇率拉取与重算
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+    inputs:
+      scrape_storefronts:
+        description: '是否同时深度爬取 App Store 各国官方标价变动 (默认否，仅更新汇率)'
+        required: false
+        default: 'false'
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  update-pricing-and-rates:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # 如果是每周日凌晨或者手动勾选，则深度扫描 App Store 标价变动
+      - name: Scrape App Store Prices (Weekly on Sunday or Manual)
+        if: github.event.inputs.scrape_storefronts == 'true' || github.event.schedule == '0 0 * * 0'
+        run: |
+          python scripts/scrape_appstore_prices.py
+
+      # 每日执行实时汇率拉取并重排数据
+      - name: Fetch Latest FX Rates & Update Dataset
+        run: |
+          python scripts/update_pricing.py
+
+      # 检测是否有变动，有变动则自动提交推送
+      - name: Commit and Push if Changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data.json
+          if git diff --staged --quiet; then
+            echo "Today's data and rates are already up to date. No commit needed."
+          else
+            git commit -m "chore(data): auto-update live pricing & exchange rates [skip ci]"
+            git push
+          fi
