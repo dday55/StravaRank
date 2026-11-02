@@ -114,18 +114,6 @@ strava-pricing-rank/
 └── README.md                     # 项目说明文档
 ```
 
----
-
-## 🚢 部署上线推荐
-
-本项目为纯静态结构加定时工作流，支持多种免运维免费部署：
-
-1. **GitHub Pages (推荐)**：
-   - 仓库设置中开启 **Settings -> Pages**，分支选择 `main`，目录选择 `/ (root)` 即可获得免费 HTTPS 域名。
-2. **Cloudflare Pages / Vercel**：
-   - 直接导入 GitHub 仓库，构建命令留空，静态目录设为根目录即可享受全球 CDN 加速。
-3. **自建 Docker (OrbStack / 云服务器)**：
-   - 执行 `docker compose up -d` 即可在指定端口持久化运行。
 
 ---
 
