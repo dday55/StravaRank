@@ -3,6 +3,9 @@ name: Deploy static content to Pages
 on:
   push:
     branches: ["main"]
+  workflow_run:
+    workflows: ["Auto-update Global Pricing & Exchange Rates"]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -16,6 +19,8 @@ concurrency:
 
 jobs:
   deploy:
+    # 仅当手动推送，或定时更新工作流执行成功时才触发部署
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
