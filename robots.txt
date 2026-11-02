@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://strava-rank.orb.local/sitemap.xml
+Sitemap: https://dday55.github.io/StravaRank/sitemap.xml

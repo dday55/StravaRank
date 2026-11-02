@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://strava-rank.orb.local/</loc>
+    <loc>https://dday55.github.io/StravaRank/</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://strava-rank.orb.local/?country=TR</loc>
+    <loc>https://dday55.github.io/StravaRank/?country=TR</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://strava-rank.orb.local/?country=JP</loc>
+    <loc>https://dday55.github.io/StravaRank/?country=JP</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://strava-rank.orb.local/?country=MX</loc>
+    <loc>https://dday55.github.io/StravaRank/?country=MX</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://strava-rank.orb.local/?country=US</loc>
+    <loc>https://dday55.github.io/StravaRank/?country=US</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

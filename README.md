@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![StravaRank Preview](og-image.png)
+![StravaRank Preview](assets/og-image.png)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](LICENSE)
 [![GitHub Actions](https://img.shields.io/badge/Auto--Update-Daily%2000:00%20UTC-emerald.svg)](.github/workflows/update-pricing.yml)
