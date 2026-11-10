@@ -18,12 +18,9 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  deploy:
-    # 仅当手动推送，或定时更新工作流执行成功时才触发部署
+  # 拆分为独立的 build 与 deploy 两个 Job，确保工件完全封存索引，避免同 Job 竞态导致找不到工件
+  build:
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -37,6 +34,13 @@ jobs:
         with:
           path: '.'
 
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
