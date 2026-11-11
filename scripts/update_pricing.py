@@ -113,7 +113,9 @@ def update_dataset():
     print(f"\n✨ Successfully updated data.json! (Total: {len(countries)} countries indexed)")
     print(f"   - CNY Exchange Rate: 1 USD = {cny_rate} CNY")
     print(f"   - Cheapest Country: {countries[0]['country']} ({countries[0]['symbol']}{countries[0]['annual']} ≈ ¥{countries[0]['price_cny_calc']} CNY)")
-    print(f"   - Turkey Price: ₺{countries[2]['annual']} TRY ≈ ¥{countries[2]['price_cny_calc']} CNY")
+    turkey = next((country for country in countries if country["id"] == "TR"), None)
+    if turkey:
+        print(f"   - Turkey Price: ₺{turkey['annual']} TRY ≈ ¥{turkey['price_cny_calc']} CNY")
 
 if __name__ == "__main__":
     update_dataset()

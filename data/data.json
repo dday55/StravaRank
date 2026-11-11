@@ -40,6 +40,31 @@
   },
   "countries": [
     {
+      "id": "TR",
+      "country": "土耳其",
+      "country_en": "Turkey",
+      "flag": "🇹🇷",
+      "currency": "TRY",
+      "symbol": "₺",
+      "annual": 799.99,
+      "monthly": 129.99,
+      "family_annual": 1499,
+      "student_annual": 449.5,
+      "difficulty": "medium",
+      "difficulty_text": "中等门槛",
+      "difficulty_score": 3,
+      "methods": [
+        "土区 Apple ID",
+        "Apple 礼品卡"
+      ],
+      "tax_note": "价格已含增值税",
+      "desc": "目前单人长期订阅最具性价比方案。只需注册一个土耳其 Apple ID，在正规平台购买土区 Apple Gift Card 充值后内购订阅即可。",
+      "price_usd_calc": 15.92,
+      "price_cny_calc": 106.5,
+      "savings_pct_calc": -80.1,
+      "rank": 1
+    },
+    {
       "id": "NG",
       "country": "尼日利亚",
       "country_en": "Nigeria",
@@ -62,31 +87,6 @@
       "price_usd_calc": 16.22,
       "price_cny_calc": 108.5,
       "savings_pct_calc": -79.7,
-      "rank": 1
-    },
-    {
-      "id": "TR",
-      "country": "土耳其",
-      "country_en": "Turkey",
-      "flag": "🇹🇷",
-      "currency": "TRY",
-      "symbol": "₺",
-      "annual": 899,
-      "monthly": 129.99,
-      "family_annual": 1499,
-      "student_annual": 449.5,
-      "difficulty": "medium",
-      "difficulty_text": "中等门槛",
-      "difficulty_score": 3,
-      "methods": [
-        "土区 Apple ID",
-        "Apple 礼品卡"
-      ],
-      "tax_note": "价格已含增值税",
-      "desc": "目前单人长期订阅最具性价比方案。只需注册一个土耳其 Apple ID，在正规平台购买土区 Apple Gift Card 充值后内购订阅即可。",
-      "price_usd_calc": 17.89,
-      "price_cny_calc": 119.6,
-      "savings_pct_calc": -77.6,
       "rank": 2
     },
     {
