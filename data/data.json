@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11",
+  "updated_at": "2026-11-12",
   "base_currency": "USD",
   "baseline": {
     "country": "United States",
@@ -10,33 +10,33 @@
   },
   "rates": {
     "USD": 1.0,
-    "CNY": 6.6878,
-    "EUR": 0.8939,
-    "GBP": 0.7482,
-    "JPY": 158.5553,
-    "NGN": 1350.4237,
-    "EGP": 53.3499,
-    "TRY": 50.2419,
-    "BRL": 5.5539,
-    "IDR": 18089.5012,
-    "INR": 93.9558,
-    "COP": 3276.877,
-    "ZAR": 16.501,
-    "PHP": 63.0186,
-    "VND": 25608.2447,
-    "MYR": 4.0555,
-    "THB": 33.5503,
-    "MXN": 18.6114,
-    "TWD": 32.9444,
-    "PLN": 3.9281,
-    "KRW": 1341.6939,
-    "SGD": 1.2807,
-    "AUD": 1.4549,
-    "NZD": 1.7833,
-    "CAD": 1.417,
-    "NOK": 9.4989,
-    "SEK": 9.859,
-    "CHF": 0.8242
+    "CNY": 6.6858,
+    "EUR": 0.8999,
+    "GBP": 0.7524,
+    "JPY": 159.5138,
+    "NGN": 1349.8226,
+    "EGP": 53.5502,
+    "TRY": 50.2776,
+    "BRL": 5.5726,
+    "IDR": 18166.9423,
+    "INR": 93.8516,
+    "COP": 3301.6044,
+    "ZAR": 16.5874,
+    "PHP": 63.3054,
+    "VND": 25655.8471,
+    "MYR": 4.0695,
+    "THB": 33.7226,
+    "MXN": 18.6274,
+    "TWD": 32.88,
+    "PLN": 3.9678,
+    "KRW": 1336.6042,
+    "SGD": 1.2837,
+    "AUD": 1.4593,
+    "NZD": 1.7957,
+    "CAD": 1.424,
+    "NOK": 9.5456,
+    "SEK": 9.9546,
+    "CHF": 0.8318
   },
   "countries": [
     {
@@ -59,8 +59,8 @@
       ],
       "tax_note": "价格已含增值税",
       "desc": "目前单人长期订阅最具性价比方案。只需注册一个土耳其 Apple ID，在正规平台购买土区 Apple Gift Card 充值后内购订阅即可。",
-      "price_usd_calc": 15.92,
-      "price_cny_calc": 106.5,
+      "price_usd_calc": 15.91,
+      "price_cny_calc": 106.4,
       "savings_pct_calc": -80.1,
       "rank": 1
     },
@@ -85,7 +85,7 @@
       "tax_note": "无额外增值税",
       "desc": "官方严格限制仅允许尼日利亚本地商业银行发行的银行卡支付，所有非本地卡与虚拟卡均会遭到拒付，外区礼品卡通道已被封堵。",
       "price_usd_calc": 16.22,
-      "price_cny_calc": 108.5,
+      "price_cny_calc": 108.4,
       "savings_pct_calc": -79.7,
       "rank": 2
     },
@@ -109,9 +109,9 @@
       ],
       "tax_note": "含本国数字服务税",
       "desc": "要求埃及本地发行的信用卡或特定本地电子钱包，防风控等级高，非本地居民基本无法成功订阅。",
-      "price_usd_calc": 19.66,
-      "price_cny_calc": 131.5,
-      "savings_pct_calc": -75.4,
+      "price_usd_calc": 19.59,
+      "price_cny_calc": 131.0,
+      "savings_pct_calc": -75.5,
       "rank": 3
     },
     {
@@ -134,9 +134,9 @@
       ],
       "tax_note": "含 11% 增值税",
       "desc": "东南亚地区低价代表，家庭组 4 人车年费仅需约 74.9 万印尼盾（折合约 ¥340，人均 ¥85/年）。",
-      "price_usd_calc": 24.82,
-      "price_cny_calc": 166.0,
-      "savings_pct_calc": -69.0,
+      "price_usd_calc": 24.72,
+      "price_cny_calc": 165.3,
+      "savings_pct_calc": -69.1,
       "rank": 4
     },
     {
@@ -159,8 +159,8 @@
       ],
       "tax_note": "含 18% GST",
       "desc": "印度央行 (RBI) 强制推行订阅自动扣款的 e-mandate 授权验证，国内信用卡绑定后极易在次月或次年续费时扣款失败。",
-      "price_usd_calc": 26.6,
-      "price_cny_calc": 177.9,
+      "price_usd_calc": 26.63,
+      "price_cny_calc": 178.0,
       "savings_pct_calc": -66.7,
       "rank": 5
     },
@@ -184,9 +184,9 @@
       ],
       "tax_note": "网页端需 CPF 税号",
       "desc": "巴西官方订阅价格低，但网页端直接支付通常强制要求填写巴西本土 CPF 税号。建议走巴西区 App Store 礼品卡充值路径绕过税号要求。",
-      "price_usd_calc": 26.99,
-      "price_cny_calc": 180.5,
-      "savings_pct_calc": -66.3,
+      "price_usd_calc": 26.9,
+      "price_cny_calc": 179.8,
+      "savings_pct_calc": -66.4,
       "rank": 6
     },
     {
@@ -209,9 +209,9 @@
       ],
       "tax_note": "含当地服务税",
       "desc": "支付方式友好，GCash 或菲律宾区礼品卡易于获取，年费约 249 元人民币。",
-      "price_usd_calc": 31.58,
-      "price_cny_calc": 211.2,
-      "savings_pct_calc": -60.5,
+      "price_usd_calc": 31.43,
+      "price_cny_calc": 210.1,
+      "savings_pct_calc": -60.7,
       "rank": 7
     },
     {
@@ -234,9 +234,9 @@
       ],
       "tax_note": "含 15% VAT",
       "desc": "南非区 Apple 礼品卡容易获取，对跨区检测较松，年费折合约 256 元人民币。",
-      "price_usd_calc": 39.39,
-      "price_cny_calc": 263.4,
-      "savings_pct_calc": -50.8,
+      "price_usd_calc": 39.19,
+      "price_cny_calc": 262.0,
+      "savings_pct_calc": -51.0,
       "rank": 8
     },
     {
@@ -259,9 +259,9 @@
       ],
       "tax_note": "含 19% IVA",
       "desc": "拉美地区又一低价洼地，目前年费折合人民币约 225 元，支持通过该区礼品卡充值。",
-      "price_usd_calc": 39.64,
-      "price_cny_calc": 265.1,
-      "savings_pct_calc": -50.4,
+      "price_usd_calc": 39.34,
+      "price_cny_calc": 263.0,
+      "savings_pct_calc": -50.8,
       "rank": 9
     },
     {
@@ -284,9 +284,9 @@
       ],
       "tax_note": "含 5% 外国承包商税",
       "desc": "年费折合约 310 元人民币，部分情况下越南 Apple ID 需要验证本地手机号。",
-      "price_usd_calc": 42.56,
-      "price_cny_calc": 284.6,
-      "savings_pct_calc": -46.8,
+      "price_usd_calc": 42.49,
+      "price_cny_calc": 284.1,
+      "savings_pct_calc": -46.9,
       "rank": 10
     },
     {
@@ -309,9 +309,9 @@
       ],
       "tax_note": "含 7% VAT",
       "desc": "泰国数字点卡渠道成熟，部分国内双币 Visa/Mastercard 也可绑定，年费约 314 元。",
-      "price_usd_calc": 44.71,
-      "price_cny_calc": 299.0,
-      "savings_pct_calc": -44.1,
+      "price_usd_calc": 44.48,
+      "price_cny_calc": 297.4,
+      "savings_pct_calc": -44.4,
       "rank": 11
     },
     {
@@ -335,9 +335,9 @@
       ],
       "tax_note": "含 10% 消费税",
       "desc": "【综合体验与稳定性最佳】由于日元汇率处于历史低位，日区年费约 ¥370。日区 Apple ID 注册极易，日本亚马逊/便利店礼品卡随时充值，更支持国内 JCB 双币信用卡直刷。4人家庭拼车人均仅需约 ¥155/年！",
-      "price_usd_calc": 49.19,
-      "price_cny_calc": 329.0,
-      "savings_pct_calc": -38.5,
+      "price_usd_calc": 48.9,
+      "price_cny_calc": 326.9,
+      "savings_pct_calc": -38.9,
       "rank": 12
     },
     {
@@ -360,9 +360,9 @@
       ],
       "tax_note": "含 23% VAT",
       "desc": "欧洲少数非欧元定价的低价区，网页端支持全币种信用卡直接结算，风控宽松。",
-      "price_usd_calc": 50.91,
-      "price_cny_calc": 340.5,
-      "savings_pct_calc": -36.4,
+      "price_usd_calc": 50.4,
+      "price_cny_calc": 337.0,
+      "savings_pct_calc": -37.0,
       "rank": 13
     },
     {
@@ -386,9 +386,9 @@
       ],
       "tax_note": "含 16% IVA",
       "desc": "【家庭组拼车性价比之王】墨西哥家庭版年费仅 1,399 比索（折合约 ¥535，4人均摊仅约 ¥134/年）。",
-      "price_usd_calc": 53.68,
-      "price_cny_calc": 359.0,
-      "savings_pct_calc": -32.9,
+      "price_usd_calc": 53.63,
+      "price_cny_calc": 358.6,
+      "savings_pct_calc": -33.0,
       "rank": 14
     },
     {
@@ -411,9 +411,9 @@
       ],
       "tax_note": "含 5% 营业税",
       "desc": "纯正繁体中文界面，官方客服响应快，支持台湾 Apple 礼品卡充值，年费折合约 403 元。",
-      "price_usd_calc": 54.33,
-      "price_cny_calc": 363.3,
-      "savings_pct_calc": -32.1,
+      "price_usd_calc": 54.44,
+      "price_cny_calc": 364.0,
+      "savings_pct_calc": -31.9,
       "rank": 15
     },
     {
@@ -436,9 +436,9 @@
       ],
       "tax_note": "含 10% 增值税",
       "desc": "韩国 Apple ID 注册时通常需要韩国手机实名验证 (PASS认证)，年费折合约 419 元。",
-      "price_usd_calc": 58.88,
-      "price_cny_calc": 393.8,
-      "savings_pct_calc": -26.4,
+      "price_usd_calc": 59.11,
+      "price_cny_calc": 395.2,
+      "savings_pct_calc": -26.1,
       "rank": 16
     },
     {
@@ -461,9 +461,9 @@
       ],
       "tax_note": "含欧盟增值税",
       "desc": "南欧轻税区标价 59.99 欧元（折合约 ¥465），较德荷等国便宜 15 欧元，网页端支持各类国际信用卡。",
-      "price_usd_calc": 67.11,
-      "price_cny_calc": 448.8,
-      "savings_pct_calc": -16.1,
+      "price_usd_calc": 66.66,
+      "price_cny_calc": 445.7,
+      "savings_pct_calc": -16.7,
       "rank": 17
     },
     {
@@ -486,35 +486,10 @@
       ],
       "tax_note": "含 15% GST",
       "desc": "新西兰区 App Store 礼品卡充值方便，年费折合约 522 元人民币。",
-      "price_usd_calc": 67.29,
-      "price_cny_calc": 450.0,
-      "savings_pct_calc": -15.9,
+      "price_usd_calc": 66.82,
+      "price_cny_calc": 446.7,
+      "savings_pct_calc": -16.5,
       "rank": 18
-    },
-    {
-      "id": "SG",
-      "country": "新加坡",
-      "country_en": "Singapore",
-      "flag": "🇸🇬",
-      "currency": "SGD",
-      "symbol": "S$",
-      "annual": 88.0,
-      "monthly": 12.98,
-      "family_annual": 138.0,
-      "student_annual": 44.0,
-      "difficulty": "easy",
-      "difficulty_text": "容易入门",
-      "difficulty_score": 4,
-      "methods": [
-        "新加坡 Apple ID",
-        "国际信用卡直付"
-      ],
-      "tax_note": "含 9% GST",
-      "desc": "亚洲金融中心，支付体系成熟，支持各类多币种信用卡直接结算，年费折合约 477 元。",
-      "price_usd_calc": 68.71,
-      "price_cny_calc": 459.5,
-      "savings_pct_calc": -14.1,
-      "rank": 19
     },
     {
       "id": "AU",
@@ -537,9 +512,34 @@
       ],
       "tax_note": "含 10% GST",
       "desc": "澳洲运动社群庞大，各种官方挑战活动多，年费折合约 474 元人民币。",
-      "price_usd_calc": 68.73,
-      "price_cny_calc": 459.7,
-      "savings_pct_calc": -14.1,
+      "price_usd_calc": 68.52,
+      "price_cny_calc": 458.1,
+      "savings_pct_calc": -14.3,
+      "rank": 19
+    },
+    {
+      "id": "SG",
+      "country": "新加坡",
+      "country_en": "Singapore",
+      "flag": "🇸🇬",
+      "currency": "SGD",
+      "symbol": "S$",
+      "annual": 88.0,
+      "monthly": 12.98,
+      "family_annual": 138.0,
+      "student_annual": 44.0,
+      "difficulty": "easy",
+      "difficulty_text": "容易入门",
+      "difficulty_score": 4,
+      "methods": [
+        "新加坡 Apple ID",
+        "国际信用卡直付"
+      ],
+      "tax_note": "含 9% GST",
+      "desc": "亚洲金融中心，支付体系成熟，支持各类多币种信用卡直接结算，年费折合约 477 元。",
+      "price_usd_calc": 68.55,
+      "price_cny_calc": 458.3,
+      "savings_pct_calc": -14.3,
       "rank": 20
     },
     {
@@ -563,9 +563,9 @@
       ],
       "tax_note": "建议选阿尔伯塔免税省",
       "desc": "注意加拿大各省消费税不同。选择阿尔伯塔省等免省税地址可避免额外 5%~10% 税费，年费约 520 元。",
-      "price_usd_calc": 70.56,
-      "price_cny_calc": 471.9,
-      "savings_pct_calc": -11.8,
+      "price_usd_calc": 70.22,
+      "price_cny_calc": 469.5,
+      "savings_pct_calc": -12.2,
       "rank": 21
     },
     {
@@ -589,9 +589,9 @@
       ],
       "tax_note": "含 20% VAT",
       "desc": "Strava 欧洲总部所在地，学生半价通过 SheerID 认证体验丝滑，年费折合约 508 元。",
-      "price_usd_calc": 73.5,
-      "price_cny_calc": 491.6,
-      "savings_pct_calc": -8.1,
+      "price_usd_calc": 73.09,
+      "price_cny_calc": 488.7,
+      "savings_pct_calc": -8.6,
       "rank": 22
     },
     {
@@ -616,7 +616,7 @@
       "tax_note": "绑定免税州 (如俄勒冈) 免税",
       "desc": "【全球基准参考】官方标准定价，任何新功能与测试第一时间上线。美区 Apple ID 普及度最高，礼品卡充足。绑定俄勒冈等免税州地址可免销售税。",
       "price_usd_calc": 79.99,
-      "price_cny_calc": 535.0,
+      "price_cny_calc": 534.8,
       "savings_pct_calc": 0.0,
       "rank": 23
     },
@@ -640,9 +640,9 @@
       ],
       "tax_note": "含 19%~21% 增值税",
       "desc": "西欧与中欧高税区，含高额增值税，年费折合约 581 元人民币，略高于美区基础价。",
-      "price_usd_calc": 83.89,
-      "price_cny_calc": 561.0,
-      "savings_pct_calc": 4.9,
+      "price_usd_calc": 83.33,
+      "price_cny_calc": 557.1,
+      "savings_pct_calc": 4.2,
       "rank": 24
     },
     {
@@ -665,9 +665,9 @@
       ],
       "tax_note": "含 25% MVA",
       "desc": "北欧高福利高物价，年费折合约 596 元人民币。",
-      "price_usd_calc": 94.64,
-      "price_cny_calc": 632.9,
-      "savings_pct_calc": 18.3,
+      "price_usd_calc": 94.18,
+      "price_cny_calc": 629.7,
+      "savings_pct_calc": 17.7,
       "rank": 25
     },
     {
@@ -690,9 +690,9 @@
       ],
       "tax_note": "含 25% Moms",
       "desc": "北欧克朗计价，相对高昂，年费折合约 643 元人民币。",
-      "price_usd_calc": 96.26,
-      "price_cny_calc": 643.8,
-      "savings_pct_calc": 20.3,
+      "price_usd_calc": 95.33,
+      "price_cny_calc": 637.4,
+      "savings_pct_calc": 19.2,
       "rank": 26
     },
     {
@@ -714,9 +714,9 @@
       ],
       "tax_note": "含 8.1% 增值税",
       "desc": "【全球最贵顶峰】瑞士法郎极度强势，官方定价 89 CHF，折合人民币高达 733 元，是尼日利亚价格的 7.2 倍，比美区基准溢价 +26.3%。",
-      "price_usd_calc": 107.98,
-      "price_cny_calc": 722.1,
-      "savings_pct_calc": 35.0,
+      "price_usd_calc": 107.0,
+      "price_cny_calc": 715.4,
+      "savings_pct_calc": 33.8,
       "rank": 27
     }
   ]
