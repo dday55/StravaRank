@@ -200,6 +200,10 @@ def render_summary(data):
     <a class="text-strava hover:underline" href="#family-calculator">计算家庭组 4 人人均</a>
     <a class="text-strava hover:underline" href="#faq">阅读跨区订阅 FAQ</a>
   </p>
+  <figure class="mt-5 max-w-4xl overflow-hidden rounded-xl border border-slate-200 bg-white">
+    <img src="./assets/og-image.png" alt="Strava 会员全球 27 个国家与地区个人年付、家庭组和学生优惠价格对比图" width="1200" height="630" loading="lazy" decoding="async" class="w-full h-auto">
+    <figcaption class="px-4 py-2 text-[11px] text-slate-500">StravaRank 全球会员价格对比图 · 数据每日更新</figcaption>
+  </figure>
 </section>""".strip()
 
 
@@ -395,6 +399,7 @@ def render_schema(data, faq):
                 "description": "Strava 会员全球 27 个国家与地区价格实时对比，覆盖个人年付、月付、家庭组和学生优惠。",
                 "dateModified": data["updated_at"],
                 "inLanguage": "zh-CN",
+                "image": [OG_IMAGE],
                 "isPartOf": {"@id": f"{BASE_URL}#website"},
                 "primaryImageOfPage": {"@id": f"{BASE_URL}#primaryimage"},
                 "breadcrumb": {"@id": f"{BASE_URL}#breadcrumb"},
@@ -403,6 +408,9 @@ def render_schema(data, faq):
                 "@type": "ImageObject",
                 "@id": f"{BASE_URL}#primaryimage",
                 "url": OG_IMAGE,
+                "contentUrl": OG_IMAGE,
+                "thumbnailUrl": OG_IMAGE,
+                "encodingFormat": "image/png",
                 "width": 1200,
                 "height": 630,
                 "caption": "Strava 会员全球各国价格实时对比看板",
@@ -417,6 +425,7 @@ def render_schema(data, faq):
                 "browserRequirements": "需要支持 JavaScript",
                 "isAccessibleForFree": True,
                 "inLanguage": "zh-CN",
+                "image": OG_IMAGE,
                 "description": f"实时追踪全球 {len(countries)} 个国家与地区 Strava 官方订阅定价、汇率换算与跨区实操索引。",
                 "offers": {
                     "@type": "AggregateOffer",
@@ -494,6 +503,7 @@ def render_sitemap(data):
     <image:image>
       <image:loc>{OG_IMAGE}</image:loc>
       <image:title>Strava 会员全球各国价格实时对比</image:title>
+      <image:caption>Strava 会员全球 27 个国家与地区个人年付、家庭组和学生优惠价格对比图</image:caption>
     </image:image>
   </url>
 </urlset>
