@@ -38,12 +38,16 @@ jobs:
         run: |
           python scripts/update_pricing.py
 
+      - name: Generate Crawlable SEO Snapshot
+        run: |
+          python scripts/build_seo.py
+
       # 检测是否有变动，有变动则自动提交推送
       - name: Commit and Push if Changed
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/data.json
+          git add data/data.json index.html sitemap.xml
           if git diff --staged --quiet; then
             echo "Today's data and rates are already up to date. No commit needed."
           else

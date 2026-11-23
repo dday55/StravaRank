@@ -7,7 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](LICENSE)
 [![GitHub Actions](https://img.shields.io/badge/Auto--Update-Daily%2000:00%20UTC-emerald.svg)](.github/workflows/update-pricing.yml)
 
-**实时追踪全球 27+ 地区 Strava 官方订阅定价、每日外汇自动折算与跨区索引**
+**实时追踪全球 27 个国家与地区 Strava 官方订阅定价、每日外汇自动折算与跨区索引**
 
 👉 **[在线访问：https://dday55.github.io/StravaRank/](https://dday55.github.io/StravaRank/)**
 
@@ -27,7 +27,8 @@
 ### 🔄 数据更新机制
 
 - **每日外汇汇率**：通过 GitHub Actions 每日北京时间早 08:00 自动拉取国际金融牌价并重排榜单；
-- **官方标价巡检**：每周自动巡检 Apple App Store 全球 27 区内购公开定价变动。
+- **官方标价巡检**：每周自动巡检 Apple App Store 全球 27 区内购公开定价变动；
+- **SEO 快照**：部署前自动生成静态价格表、FAQ、JSON-LD 与 sitemap，确保搜索引擎可抓取最新数据。
 
 ---
 

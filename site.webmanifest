@@ -1,11 +1,15 @@
 {
   "name": "StravaRank - Strava 全球会员价格追踪与比价",
   "short_name": "StravaRank",
-  "description": "实时追踪全球 27+ 地区 Strava 官方订阅定价、实时汇率换算与国内跨区实操索引。",
+  "description": "实时追踪全球 27 个国家与地区 Strava 官方订阅定价、汇率换算与跨区订阅门槛。",
+  "lang": "zh-CN",
+  "dir": "ltr",
   "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#FFFFFF",
-  "theme_color": "#FFFFFF",
+  "theme_color": "#FC5200",
+  "categories": ["sports", "utilities"],
   "icons": [
     {
       "src": "./assets/icons/favicon.svg",
